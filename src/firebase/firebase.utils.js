@@ -31,7 +31,9 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
         createAt,
         ...additionalData
       });
-    } catch (error) {}
+    } catch (error) {
+      console.error(error);
+    }
   }
   return userRef;
 };
