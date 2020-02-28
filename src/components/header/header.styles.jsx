@@ -29,7 +29,7 @@ export const OptionsContainer = styled.div`
   justify-content: flex-end;
 `;
 
-export const OptionLink = styled(Link)`
+export const OptionLinkContainer = styled(Link)`
   padding: 10px 15px;
   cursor: pointer;
 `;
